@@ -1,0 +1,25 @@
+a{
+    color: aliceblue !important; 
+}
+li{
+    list-style-type: none;
+}
+.numero{
+    margin-top: 50px !important;
+}
+body{
+    font-size: 15px;
+}
+/*#img{
+  padding: 10px;  
+}*/
+#rs a{
+    padding-left: 30px;
+}
+@media screen and(min-width:992px) {
+    #img-navbar{
+        width: 70%;
+    }
+}
+
+

@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.container{
+    display:  flex;
+}
+
+.login{
+    display: block;
+    background: darkolivegreen;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+input{
+    background: white;
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.login .img2{
+    background-color:white;
+    padding:10px;
+    border-radius: 15px;
+    margin-right: 70px;
+}
+.login .mail{
+    margin-bottom: 10px;
+    padding-left: 70px;
+}
+.login .pw{
+    padding-left: 70px;
+}
+
+
+.icons{
+    color: white;
+}
+.icons:hover{
+    color: darkolivegreen;
+}
+.q1{
+    background:darkorange;
+    width: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    transform: translate(40px,20px);
+    margin-bottom: 50px;
+}
+.q1:hover{
+    background: rgba(32, 32, 37, 0.308) ;
+}
+ h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+ a{
+    float: right;
+    margin-bottom: 20px;
+    transform: translate(-10px,0px);
+    color:rgb(32, 32, 37) ;
+}
+#button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    transform: translate(100px,10px);
+    font-size: 25px;
+    float: right;
+}
+#button:hover{
+    background: red;
+}
+#button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    transform: translate(-10px,10px);
+    font-size: 25px;
+    float: right;
+}
+#panel1,#panel2 {
+    padding: 50px;
+    display: none;
+}

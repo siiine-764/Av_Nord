@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.showproduct{
+    border-radius: 10px;
+    padding: 20px;
+    transition: 1s;
+}
+.showproduct:hover{
+    box-shadow: 4px 4px 8px rgb(73, 72, 72);
+}
